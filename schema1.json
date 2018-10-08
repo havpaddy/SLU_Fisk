@@ -1,11 +1,9 @@
 {
   "name": "TestData",
   "title": "SLU fisk",
-  "resources": [
     {
       "name": "my-data",
       "path": "Sjöprovfiske_Roxen_fångster_20180806.csv",
-      "schema": {
         "fields": [
           {
             "name": "SJOID",
@@ -55,14 +53,12 @@
             "constraints": {
               "minimum": 1
             }
-          }
+          },
           {
             "name": "ANMARKNINGAR",
             "type": "string",
             "description": "svenskt namn"
           }
         ]
-      }
     }
-  ]
 }
