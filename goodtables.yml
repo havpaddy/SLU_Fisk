@@ -1,1 +1,8 @@
-files: '*.csv'
+files:
+  - source: data.csv
+    format: csv
+    schema: schema1.json
+    delimiter: ';'
+    encoding: utf-8
+    lineterminator: \r\n
+    

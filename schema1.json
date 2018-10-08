@@ -1,14 +1,43 @@
 {
     "fields": [
         {
-            "name": "SjoI",
-            "title": "SJOID",
+            "name": "SJOID",
             "type": "integer"
         },
         {
-            "name": "name",
-            "title": "NAMN",
+            "name": "NAMN",
             "type": "string"
-        }
+        },
+        {
+            "name": "DATUM1",
+            "type": "string"
+        },
+        {
+            "name": "NATNR",
+            "type": "string"
+        },
+        {
+            "name": "MASKA",
+            "type": "string"
+        },
+        {
+            "name": "FISKART",
+            "type": "string"
+        },
+        {
+            "name": "ANTAL",
+            "type": "string"
+        },
+
+        {
+            "name": "TOTALVIKT",
+            "type": "string"
+        },
+
+        {
+            "name": "ANMARKNINGAR",
+            "type": "string"
+        },
+
     ]
 }
