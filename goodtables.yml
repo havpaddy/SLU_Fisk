@@ -5,4 +5,9 @@ files:
     delimiter: ';'
     encoding: utf-8
     lineterminator: \r\n
-    
+  - source: data.xlsx
+    sheet: 6
+
+settings:
+  infer_schema: True
+  infer_fields: True

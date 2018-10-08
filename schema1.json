@@ -6,7 +6,7 @@
       "name": "my-data",
       "path": "data.csv",
       "schema": {
-    "fields": [
+      "fields": [
         {
             "name": "SJOID",
             "type": "string",
