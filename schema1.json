@@ -8,7 +8,7 @@
       "schema": {
         "fields": [
           {
-            "name": "SJÖID",
+            "name": "SJOID",
             "type": "string",
             "description": "LakeID"
           },
@@ -23,7 +23,7 @@
             "description": "Sampling date"
           },
           {
-            "name": "NÄTNR",
+            "name": "NATNR",
             "type": "number",
             "description": "Nätnummer",
             "constraints": {
@@ -57,7 +57,7 @@
             }
           }
           {
-            "name": "ANMÄRKNINGAR",
+            "name": "ANMARKNINGAR",
             "type": "string",
             "description": "svenskt namn"
           },
