@@ -6,7 +6,13 @@ files:
     encoding: utf-8
     lineterminator: \r\n
   - source: data.xlsx
-    sheet: 6
+    sheet: 3
+  - source: simple.csv
+    format: csv
+    schema: schema2.json
+    delimiter: ','
+    encoding: utf-8
+    lineterminator: \r\n
 
 settings:
   infer_schema: True
