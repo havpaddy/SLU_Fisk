@@ -9,7 +9,7 @@
     "fields": [
         {
             "name": "SJOID",
-            "type": "integer",
+            "type": "string",
             "description": "yada"
         },
         {
