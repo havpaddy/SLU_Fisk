@@ -1,0 +1,68 @@
+{
+  "name": "TestData",
+  "title": "SLU fisk",
+  "resources": [
+    {
+      "name": "my-data",
+      "path": "Sjöprovfiske_Roxen_fångster_20180806.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "SJÖID",
+            "type": "string",
+            "description": "LakeID"
+          },
+          {
+            "name": "NAMN",
+            "type": "string",
+            "description": "Lake Name"
+          },
+          {
+            "name": "DATUM1",
+            "type": "date",
+            "description": "Sampling date"
+          },
+          {
+            "name": "NÄTNR",
+            "type": "number",
+            "description": "Nätnummer",
+            "constraints": {
+              "minimum": 0
+            }
+          },  
+          {
+            "name": "MASKA",
+            "type": "string",
+            "description": "maska"
+          },
+          {
+            "name": "FISKART",
+            "type": "string",
+            "description": "svenskt namn"
+          },
+          {
+            "name": "ANTAL",
+            "type": "number",
+            "description": "Antal räknade",
+            "constraints": {
+              "minimum": 1
+            }
+          }, 
+          {
+            "name": "TOTVIKT",
+            "type": "number",
+            "description": "vikt gram",
+            "constraints": {
+              "minimum": 1
+            }
+          }
+          {
+            "name": "ANMÄRKNINGAR",
+            "type": "string",
+            "description": "svenskt namn"
+          },
+        ]
+      }
+    }
+  ]
+}

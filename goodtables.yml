@@ -1,0 +1,3 @@
+files:
+  - source: Sjöprovfiske_Roxen_fångster_201808061.csv
+    schema: schema1.json
