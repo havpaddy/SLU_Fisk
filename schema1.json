@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "my-data",
-      "path": "Sjöprovfiske_Roxen_fångster_20180806.csv",
+      "path": "SjÃ¶provfiske_Roxen_fÃ¥ngster_20180806.csv",
       "schema": {
         "fields": [
           {
@@ -25,7 +25,7 @@
           {
             "name": "NATNR",
             "type": "number",
-            "description": "Nätnummer",
+            "description": "NÃ¤tnummer",
             "constraints": {
               "minimum": 0
             }
@@ -43,7 +43,7 @@
           {
             "name": "ANTAL",
             "type": "number",
-            "description": "Antal räknade",
+            "description": "Antal rÃ¤knade",
             "constraints": {
               "minimum": 1
             }
@@ -60,7 +60,7 @@
             "name": "ANMARKNINGAR",
             "type": "string",
             "description": "svenskt namn"
-          },
+          }
         ]
       }
     }
