@@ -9,41 +9,50 @@
     "fields": [
         {
             "name": "SJOID",
-            "type": "integer"
+            "type": "integer",
+            "description": "yada"
         },
         {
             "name": "NAMN",
-            "type": "string"
+            "type": "string",
+            "description": "yada"
         },
         {
             "name": "DATUM1",
-            "type": "string"
+            "type": "string",
+            "description": "yada"
         },
         {
             "name": "NATNR",
-            "type": "string"
+            "type": "string",
+            "description": "yada"
         },
         {
             "name": "MASKA",
-            "type": "string"
+            "type": "string",
+            "description": "yada"
         },
         {
             "name": "FISKART",
-            "type": "string"
+            "type": "string",
+            "description": "yada"
         },
         {
             "name": "ANTAL",
-            "type": "string"
+            "type": "string",
+            "description": "yada"
         },
 
         {
             "name": "TOTALVIKT",
-            "type": "string"
+            "type": "string",
+            "description": "yada"
         },
 
         {
             "name": "ANMARKNINGAR",
-            "type": "string"
+            "type": "string",
+            "description": "yada"
         }
 
           }
