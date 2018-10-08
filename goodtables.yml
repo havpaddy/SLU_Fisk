@@ -1,3 +1,7 @@
 files:
   - source: Sjöprovfiske_Roxen_fångster_201808061.csv
+    format: csv
     schema: schema1.json
+    delimiter: ,
+    encoding: utf-8
+    
